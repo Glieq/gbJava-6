@@ -66,7 +66,7 @@ public class notebooks {
     public void displayInfo() {
         System.out.println("Бренд: " + brand);
         System.out.println("Модель: " + model);
-        System.out.println("Цена: $" + price);
+        System.out.println("Цена: Руб: " + price);
         System.out.println("Память: " + memory + "Гб");
         System.out.println("Наличие: " + (inStock ? "В наличии" : "Нет в наличии"));
     }
